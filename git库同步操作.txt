@@ -1,0 +1,16 @@
+git version//确认GIT安装完成
+git config --global user.name "THUTJUquliuxin"
+git config --global user.email 2295232338@qq.com
+git config list 
+
+//跳转至文件夹打开CMD
+
+git init
+git remote add origin https://gitee.com/thutjuqlx/test.git  //获取云端库地址
+
+git pull//拉取云端库
+
+git add -A     //将文件添加到本地git库缓存区
+git commit -m "提交说明"//本地库修改提交；新库第一次提交说明为"first"
+git push origin master //git push -u origin "master"  本地库上传至云端
+

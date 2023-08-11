@@ -1,7 +1,15 @@
+GIT官网直接下载、默认配置安装即可
+
 git version//确认GIT安装完成
+
+##
 git config --global user.name "THUTJUquliuxin"
 git config --global user.email 2295232338@qq.com
 git config list 
+前面这几步骤貌似不需要了
+##
+
+
 
 //跳转至文件夹打开CMD
 
